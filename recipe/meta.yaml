@@ -1,13 +1,13 @@
 {% set name = "ioproc" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ioproc-{{ version }}.tar.gz
-  sha256: 39d46139322ea10e42ab2b19c92fa8994d52d0f1a0bcc4f1759ca220139f7191
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ioproc-{{ version }}.tar.gz
+  sha256: 07bd392d977944890dee272536d9872b419c8b7a8e1d6304ce44d6150efce9e1
 
 build:
   entry_points:
